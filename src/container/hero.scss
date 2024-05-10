@@ -1,8 +1,8 @@
 .wrapper {
     display: flex;
-    justify-content: space-around;
+    gap: 3rem;
+    justify-content: center;
     align-items: center;
-    // gap: 4rem;
     padding: 0 3rem;
     padding-bottom: 2rem;
 }
@@ -15,25 +15,23 @@
 }
 
 .content {
-    width: 35%;
-
+    width: 38%;
     h1 {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
         font-weight: 600;
         line-height: 110%;
         color: white;
         margin-bottom: 0;
-        width: min-content;
     }
 
     p {
         margin-top: 3rem;
         margin-bottom: 3rem;
-        width: 400px;
-        // padding: 0 80px 0 0;
+        width: 420px;
         line-height: 160%;
         opacity: .8;
         color: white;
+        font-size: 1.3rem;
     }
 
     a {
