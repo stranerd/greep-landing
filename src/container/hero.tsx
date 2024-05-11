@@ -17,8 +17,8 @@ const Hero = () => {
           <span className="animate">Decentralized Payments Infrastructure</span>
         </h1>
         <p>
-          Process Payment Real time leverages the stellar Network in a
-          versatile retail setting <br /> Earn royalty Reward in real Time
+        Process payments real time leveraging the Stellar Network on Greep in a versatile retail setting 
+ <br /> Earn royalty Reward in real Time
         </p>
         <div className="cta">
           <Button text="Pre-order" />
