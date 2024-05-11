@@ -78,9 +78,14 @@
         gap: 2rem;
         padding: 0 1rem;
     }
+    .image-cards{
+        width: 450px;   
+        justify-content: start;     
+    }
 
     .content {
       width: 450px;
+      margin-top: 1.5rem;
         
         h1 {
             font-size: 2.5rem;
@@ -98,7 +103,9 @@
     .wrapper {
         padding: 0 1rem;
     }
-
+    .image-cards{
+        width: 100%;
+    }
     .content {
         width: 100%;
         h1 {
