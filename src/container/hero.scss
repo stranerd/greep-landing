@@ -7,12 +7,11 @@
     padding-bottom: 2rem;
 }
 
-.image-cards{
-    background: #ccc;
-    padding: 20px;
-    width: 450px;
-    height: 450px;
-}
+// .image-cards{
+//     padding: 20px;
+//     width: 450px;
+//     height: 450px;
+// }
 
 .content {
     width: 38%;
@@ -22,7 +21,25 @@
         line-height: 110%;
         color: white;
         margin-bottom: 0;
+        overflow: hidden;
     }
+    h1 span {
+        display: inline-block;
+        transform: translateX(-100%);
+      }
+      
+      h1 span.animate {
+        animation: reveal 1.5s forwards;
+      }
+      
+      @keyframes reveal {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
 
     p {
         margin-top: 3rem;
@@ -70,12 +87,6 @@
 @media screen and (max-width: 496px) {
     .wrapper {
         padding: 0 1rem;
-    }
-
-    .image-cards{
-        background: #ccc;
-        padding: 20px;
-        width: 100%;
     }
 
     .content {
