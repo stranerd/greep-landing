@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='nav'>
         <div><img src={logo} alt="greep logo" /></div>
-        <Button text="Get Started" />
+        <Button text="Pre-order" />
     </div>
   )
 }
